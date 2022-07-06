@@ -1,0 +1,8 @@
+{
+  "name": "madeline-docs",
+  "private": true,
+  "scripts": {
+    "dev": "mkdocs serve",
+    "build": "mkdocs build -d public"
+  }
+}
