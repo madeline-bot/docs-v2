@@ -13,7 +13,7 @@ Madeline is a multifunctional Discord bot that offers countless amounts of featu
 
 Firstly, make sure that Madeline is in the server you are looking to use it in. If not, you may invite it by clicking [here](/invite).
 
-Madeline is by default only asking for the permissions required for it to work, we highly recommend you to make sure you are inviting it with the required permissions, otherwise, the bot may not work properly. If you want to know more details about why we are asking for specific permissions, read the [FAQ](/docs/faq).
+Madeline is by default only asking for the permissions required for it to work, we highly recommend you to make sure you are inviting it with the required permissions, otherwise, the bot may not work properly. If you want to know more details about why we are asking for specific permissions, read the [FAQ](/faq).
 
 ## Configuration
 
