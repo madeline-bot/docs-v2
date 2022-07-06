@@ -5,6 +5,7 @@ repo_name: madeline-bot/docs-v2
 edit_uri: edit/master/docs/
 theme:
   name: material
+  favicon: images/favicon.png
   features:
     - header.autohide
     - navigation.instant
@@ -24,6 +25,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  icon:
+    logo: material/book
 extra_javascript:
   - js/latest.js
 plugins:
