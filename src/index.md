@@ -3,7 +3,7 @@ home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Madeline - The Discord Bot Documentations
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /docs/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
@@ -11,5 +11,5 @@ features:
   details: Feature 2 Description
 - title: Feature 3 Title
   details: Feature 3 Description
-footer: Made by Clemie McCartney with ❤️
+footer: Copyright © 2021-present, MatthewSoft
 ---
