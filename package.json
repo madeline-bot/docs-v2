@@ -1,8 +1,19 @@
 {
   "name": "madeline-docs",
+  "version": "0.1.0",
+  "description": "Madeline Documentations",
+  "main": "index.js",
   "private": true,
+  "authors": {
+    "name": "Clemie McCartney",
+    "email": "git@gnztmpz.eu.org"
+  },
+  "repository": "github.com/madeline-bot/docs-v2/madeline-docs",
   "scripts": {
-    "dev": "mkdocs serve",
-    "build": "mkdocs build -d public"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "devDependencies": {
+    "vuepress": "latest"
   }
 }
