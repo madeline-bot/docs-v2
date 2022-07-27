@@ -27,10 +27,10 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/madeline-bot/docs-v2',
     editLinks: true,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: 'src',
+    editLinkText: 'Edit on Github',
     lastUpdated: true,
     algolia: {
       apiKey: 'ba2ad6b12791eddbc7079344250ed2ce',
@@ -40,22 +40,18 @@ module.exports = {
     },
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Documentations',
+        link: '/docs/',
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'API Reference',
+        link: '/api/'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/docs/': [
         {
-          title: 'Guide',
+          title: 'Documentations',
           collapsable: false,
           children: [
             '',
