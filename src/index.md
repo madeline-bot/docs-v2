@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Madeline - The Discord Bot Documentations
+heroImage: https://github.com/madeline-bot.png
+tagline: A Multifunctional SA-MP/open.mp Discord Bot written in NAFF (Python)
 actionText: Quick Start →
 actionLink: /docs/
 features:
