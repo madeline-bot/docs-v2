@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "vuepress": "latest"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "latest",
+    "@vuepress/plugin-medium-zoom": "latest"
   }
 }
