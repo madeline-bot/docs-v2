@@ -4,6 +4,7 @@ on:
     branches: [master]
 jobs:
   deploy:
+    name: Deploy (Production)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,3 +24,21 @@ jobs:
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
           PRODUCTION: true # Deploy to production environment
           ALIAS_DOMAINS: ${{ secrets.ALIAS_DOMAINS }}
+
+  scrape:
+    name: Algolia Scrape (Production)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Get the content of config.json as config
+        id: algolia_config
+        run: echo "::set-output name=config::$(cat ./algolia.config.json | jq -r tostring)"
+
+      - name: Push indices to Algolia
+        uses: signcl/docsearch-scraper-action@master
+        env:
+          APPLICATION_ID: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+          API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+          CONFIG: ${{ steps.algolia_config.outputs.config }}

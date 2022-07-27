@@ -4,6 +4,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   deploy:
+    name: Deploy (Preview)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

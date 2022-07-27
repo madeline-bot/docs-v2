@@ -28,10 +28,16 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: false,
+    editLinks: true,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
+    algolia: {
+      apiKey: 'ba2ad6b12791eddbc7079344250ed2ce',
+      indexName: 'docs',
+      // If Algolia did not provided you any `appId`, use `BH4D9OD16A` or remove this option
+      appId: 'BYGLTBMRH0',
+    },
     nav: [
       {
         text: 'Guide',
