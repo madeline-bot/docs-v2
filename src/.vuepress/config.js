@@ -43,10 +43,6 @@ module.exports = {
         text: 'Documentations',
         link: '/docs/',
       },
-      {
-        text: 'API Reference',
-        link: '/api/'
-      }
     ],
     sidebar: {
       '/docs/': [
