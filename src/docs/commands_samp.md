@@ -22,7 +22,7 @@ Learn more how to add your server to bookmarks after this section!
 ## Server Query Bookmark Commands
 
 ::: warning
-Each server can only bookmark one SA-MP server!
+Each guild can only bookmark one SA-MP server!
 :::
 
 | Name                   | Example                                      | Usage                             |
