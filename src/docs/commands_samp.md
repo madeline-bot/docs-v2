@@ -5,7 +5,7 @@ lang: en-US
 
 ## General SA-MP Commands
 
-:::tip
+::: tip
 
 You could technically run the `/samp query` without any argument.
 
