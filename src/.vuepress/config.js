@@ -47,11 +47,22 @@ module.exports = {
     sidebar: {
       '/docs/': [
         {
-          title: 'Documentations',
+          title: 'Good to Read',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'information',
+            'faq',
+          ]
+        },
+        {
+          title: 'Commands',
+          collapsable: false,
+          children: [
+            'commands_ckc',
+            'commands_samp',
+            'commands_tools',
+            'commands_tags',
           ]
         }
       ],
