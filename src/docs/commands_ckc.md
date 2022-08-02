@@ -5,8 +5,8 @@ lang: en-US
 
 ## Text Manipulation Commands
 
-| Name                        | Example                                                  | Usage                                                                                              |
-| :-------------------------- | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| Name                      | Example                                                  | Usage                                                                                              |
+| :------------------------ | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
 | aesthetics &lt;text&gt;   | /ckc fonts aesthetics `text:600 iq`                      | Returns your text as fullwidth.<br>The example would return "６００ ｉｑ"                          |
 | bold-fancy &lt;text&gt;   | /ckc fonts bold-fancy `text:bold is beautiful`           | Returns your text as bold cursive.<br>The example would return "𝓫𝓸𝓵𝓭 𝓲𝓼 𝓫𝓮𝓪𝓾𝓽𝓲𝓯𝓾𝓵"                 |
 | bold-fraktur &lt;text&gt; | /ckc fonts bold-fraktur `text:makes text look like this` | Returns your text as bold blackletter.<br>The example would return "𝖒𝖆𝖐𝖊𝖘 𝖙𝖊𝖝𝖙 𝖑𝖔𝖔𝖐 𝖑𝖎𝖐𝖊 𝖙𝖍𝖎𝖘"     |
@@ -17,9 +17,9 @@ lang: en-US
 
 ## Fun Commands
 
-| Name                                                     | Example                                             | Usage                                                                                                   |
-| :------------------------------------------------------- | :-------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
-| 8ball [question]                      | /ckc fun 8ball `question:will anyone ever love me?` | It's like any other 8ball command on discord. Annoying, useless and unreasonably popular.               |
-| dice [sides] [rolls] | /ckc fun dice `sides:1` `rolls:1`                   | Roll a dice                                                                                             |
-| coinflip                                               | /ckc fonts coinflip                                 | Flips a coin                                                                                            |
-| lmgtfy &lt;search_terms&gt;                            | /ckc fun lmgtfy `search_terms:dont ask to ask!`     | Returns you a LMGTFY link. Good to counter people who lazy enough to open up Google in their browser :3 |
+| Name                        | Example                                             | Usage                                                                                                   |
+| :-------------------------- | :-------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| 8ball [question]            | /ckc fun 8ball `question:will anyone ever love me?` | It's like any other 8ball command on discord. Annoying, useless and unreasonably popular.               |
+| dice [sides] [rolls]        | /ckc fun dice `sides:1` `rolls:1`                   | Roll a dice                                                                                             |
+| coinflip                    | /ckc fonts coinflip                                 | Flips a coin                                                                                            |
+| lmgtfy &lt;search_terms&gt; | /ckc fun lmgtfy `search_terms:dont ask to ask!`     | Returns you a LMGTFY link. Good to counter people who lazy enough to open up Google in their browser :3 |
