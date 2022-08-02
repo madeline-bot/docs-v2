@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Madeline',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -27,10 +27,10 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/madeline-bot/docs-v2',
     editLinks: true,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: 'src',
+    editLinkText: 'Edit on Github',
     lastUpdated: true,
     algolia: {
       apiKey: 'ba2ad6b12791eddbc7079344250ed2ce',
@@ -40,26 +40,29 @@ module.exports = {
     },
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Documentations',
+        link: '/docs/',
       },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
-      '/guide/': [
+      '/docs/': [
         {
-          title: 'Guide',
+          title: 'Good to Read',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'information',
+            'faq',
+          ]
+        },
+        {
+          title: 'Commands',
+          collapsable: false,
+          children: [
+            'commands_ckc',
+            'commands_samp',
+            'commands_tools',
+            'commands_tags',
           ]
         }
       ],
@@ -72,5 +75,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    "vuepress-plugin-simple-analytics",
   ]
 }
